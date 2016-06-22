@@ -3,63 +3,66 @@ package br.com.acme.negocio.modelo;
 public class Voo {
 
 	private int idVoo;
-
 	private int tempoEstimado;
-
 	private Aeronave aeronave;
-
 	private LinhaAerea linhaAerea;
-
 	private Partida partida;
-
 	private Chegada chegada;
 
-	public void setIdVoo(int idVoo) {
-
+	public Voo(int idVoo, int tempoEstimado, Aeronave aeronave, LinhaAerea linhaAerea, Partida partida, Chegada chegada) {
+		this.idVoo = idVoo;
+		this.tempoEstimado = tempoEstimado;
+		this.aeronave = aeronave;
+		this.linhaAerea = linhaAerea;
+		this.partida = partida;
+		this.chegada = chegada;
 	}
 
 	public int getIdVoo() {
-		return 0;
+		return idVoo;
 	}
 
-	public void setTempoEstimado(int tempoEstimado) {
-
+	public void setIdVoo(int idVoo) {
+		this.idVoo = idVoo;
 	}
 
 	public int getTempoEstimado() {
-		return 0;
+		return tempoEstimado;
 	}
 
-	public void setPartida(Partida partida) {
-
-	}
-
-	public Partida getPartida() {
-		return null;
-	}
-
-	public void setChegada(Chegada chegada) {
-
-	}
-
-	public Chegada getChegada() {
-		return null;
-	}
-
-	public void setAeronave(Aeronave aeronave) {
-
+	public void setTempoEstimado(int tempoEstimado) {
+		this.tempoEstimado = tempoEstimado;
 	}
 
 	public Aeronave getAeronave() {
-		return null;
+		return aeronave;
 	}
 
-	public void setLinhaAerea(LinhaAerea linhaAerea) {
-
+	public void setAeronave(Aeronave aeronave) {
+		this.aeronave = aeronave;
 	}
 
 	public LinhaAerea getLinhaAerea() {
-		return null;
+		return linhaAerea;
 	}
 
+	public void setLinhaAerea(LinhaAerea linhaAerea) {
+		this.linhaAerea = linhaAerea;
+	}
+
+	public Partida getPartida() {
+		return partida;
+	}
+
+	public void setPartida(Partida partida) {
+		this.partida = partida;
+	}
+
+	public Chegada getChegada() {
+		return chegada;
+	}
+
+	public void setChegada(Chegada chegada) {
+		this.chegada = chegada;
+	}
 }

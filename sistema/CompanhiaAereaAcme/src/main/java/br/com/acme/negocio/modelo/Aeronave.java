@@ -5,53 +5,55 @@ import java.util.List;
 public class Aeronave {
 
 	private String idAeronave;
-
 	private String fabricante;
-
 	private String modelo;
-
 	private int numeroDeAssentos;
+	private List<Assento> assento;
 
-	private Assento[] assento;
-
-	public void setIdAeronave(String idAeronave) {
-
+	public Aeronave(int numeroDeAssentos, String modelo, String fabricante, String idAeronave) {
+		this.numeroDeAssentos = numeroDeAssentos;
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.idAeronave = idAeronave;
 	}
 
 	public String getIdAeronave() {
-		return null;
+		return idAeronave;
 	}
 
-	public void setFabricante(String fabricante) {
-
+	public void setIdAeronave(String idAeronave) {
+		this.idAeronave = idAeronave;
 	}
 
 	public String getFabricante() {
-		return null;
+		return fabricante;
 	}
 
-	public void setModelo(String modelo) {
-
+	public void setFabricante(String fabricante) {
+		this.fabricante = fabricante;
 	}
 
 	public String getModelo() {
-		return null;
+		return modelo;
 	}
 
-	public void setNumeroDeAssentos(int numeroDeAssentos) {
-
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
 	}
 
 	public int getNumeroDeAssentos() {
-		return 0;
+		return numeroDeAssentos;
 	}
 
-	public void setListaAssentos(List<Assento> listaAssentos) {
-
+	public void setNumeroDeAssentos(int numeroDeAssentos) {
+		this.numeroDeAssentos = numeroDeAssentos;
 	}
 
-	public List<Assento> getListaAssentos() {
-		return null;
+	public List<Assento> getAssento() {
+		return assento;
 	}
 
+	public void setAssento(List<Assento> assento) {
+		this.assento = assento;
+	}
 }

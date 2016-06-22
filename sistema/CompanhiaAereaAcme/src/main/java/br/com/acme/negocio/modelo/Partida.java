@@ -1,47 +1,51 @@
 package br.com.acme.negocio.modelo;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Partida {
 
 	private int idPartida;
-
 	private Date dataPartida;
-
 	private String horaPartida;
-
 	private Aeroporto aeroporto;
 
-	public void setIdPartida(int idPartida) {
-
+	public Partida(int idPartida, Date dataPartida, String horaPartida, Aeroporto aeroporto) {
+		this.idPartida = idPartida;
+		this.dataPartida = dataPartida;
+		this.horaPartida = horaPartida;
+		this.aeroporto = aeroporto;
 	}
 
 	public int getIdPartida() {
-		return 0;
+		return idPartida;
 	}
 
-	public void setDataPartida(Date dataPartida) {
-
+	public void setIdPartida(int idPartida) {
+		this.idPartida = idPartida;
 	}
 
 	public Date getDataPartida() {
-		return null;
+		Date data = new Date(dataPartida.getTime());
+		return data;
 	}
 
-	public void setHoraPartida(String horaPartida) {
-
+	public void setDataPartida(Date dataPartida) {
+		this.dataPartida = dataPartida;
 	}
 
 	public String getHoraPartida() {
-		return null;
+		return horaPartida;
 	}
 
-	public void setAeroporto(Aeroporto aeroporto) {
-
+	public void setHoraPartida(String horaPartida) {
+		this.horaPartida = horaPartida;
 	}
 
 	public Aeroporto getAeroporto() {
-		return null;
+		return aeroporto;
 	}
 
+	public void setAeroporto(Aeroporto aeroporto) {
+		this.aeroporto = aeroporto;
+	}
 }

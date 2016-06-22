@@ -3,33 +3,36 @@ package br.com.acme.negocio.modelo;
 public class LinhaAerea {
 
 	private String idLinhaAerea;
-
 	private String nome;
-
 	private Alianca alianca;
 
-	public void setIdLinhaAerea(String idLinhaAerea) {
-
+	public LinhaAerea(String idLinhaAerea, String nome, Alianca alianca) {
+		this.idLinhaAerea = idLinhaAerea;
+		this.nome = nome;
+		this.alianca = alianca;
 	}
 
 	public String getIdLinhaAerea() {
-		return null;
+		return idLinhaAerea;
 	}
 
-	public void setNome(String nome) {
-
+	public void setIdLinhaAerea(String idLinhaAerea) {
+		this.idLinhaAerea = idLinhaAerea;
 	}
 
 	public String getNome() {
-		return null;
+		return nome;
 	}
 
-	public void setAlianca(Alianca alianca) {
-
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public Alianca getAlianca() {
-		return null;
+		return alianca;
 	}
 
+	public void setAlianca(Alianca alianca) {
+		this.alianca = alianca;
+	}
 }

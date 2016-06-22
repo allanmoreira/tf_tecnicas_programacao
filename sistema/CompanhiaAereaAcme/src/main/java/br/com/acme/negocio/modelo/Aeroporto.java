@@ -3,43 +3,46 @@ package br.com.acme.negocio.modelo;
 public class Aeroporto {
 
 	private String idAeroporto;
-
 	private String latitude;
-
 	private String longitude;
-
 	private String nome;
 
+    public Aeroporto(String idAeroporto, String latitude, String longitude, String nome) {
+        this.idAeroporto = idAeroporto;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.nome = nome;
+    }
+
+    public String getIdAeroporto() {
+		return idAeroporto;
+	}
+
 	public void setIdAeroporto(String idAeroporto) {
-
-	}
-
-	public String getIdAeroporto() {
-		return null;
-	}
-
-	public void setLatitude(String latitude) {
-
+		this.idAeroporto = idAeroporto;
 	}
 
 	public String getLatitude() {
-		return null;
+		return latitude;
 	}
 
-	public void setLongitude(String longitude) {
-
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
 	}
 
 	public String getLongitude() {
-		return null;
+		return longitude;
 	}
 
-	public void setNome(String nome) {
-
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
 	}
 
 	public String getNome() {
-		return null;
+		return nome;
 	}
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 }

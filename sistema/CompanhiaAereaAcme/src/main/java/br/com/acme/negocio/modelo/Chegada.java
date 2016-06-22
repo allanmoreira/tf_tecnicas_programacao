@@ -1,47 +1,51 @@
 package br.com.acme.negocio.modelo;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Chegada {
 
 	private int idChegada;
-
 	private Date dataChegada;
-
 	private String horaChegada;
-
 	private Aeroporto aeroporto;
 
-	public void setIdChegada(int idChegada) {
-
+	public Chegada(int idChegada, Date dataChegada, String horaChegada, Aeroporto aeroporto) {
+		this.idChegada = idChegada;
+		this.dataChegada = dataChegada;
+		this.horaChegada = horaChegada;
+		this.aeroporto = aeroporto;
 	}
 
 	public int getIdChegada() {
-		return 0;
+		return idChegada;
 	}
 
-	public void setDataChegada(Date dataChegada) {
-
+	public void setIdChegada(int idChegada) {
+		this.idChegada = idChegada;
 	}
 
 	public Date getDataChegada() {
-		return null;
+		Date data = new Date(dataChegada.getTime());
+		return data;
 	}
 
-	public void setHoraChegada(String horaChegada) {
-
+	public void setDataChegada(Date dataChegada) {
+		this.dataChegada = dataChegada;
 	}
 
 	public String getHoraChegada() {
-		return null;
+		return horaChegada;
 	}
 
-	public void setAeroporto(Aeroporto aeroporto) {
-
+	public void setHoraChegada(String horaChegada) {
+		this.horaChegada = horaChegada;
 	}
 
 	public Aeroporto getAeroporto() {
-		return null;
+		return aeroporto;
 	}
 
+	public void setAeroporto(Aeroporto aeroporto) {
+		this.aeroporto = aeroporto;
+	}
 }

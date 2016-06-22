@@ -3,53 +3,56 @@ package br.com.acme.negocio.modelo;
 public class Cliente {
 
 	private int idCliente;
-
 	private String nome;
-
 	private String rg;
-
 	private String cpf;
-
 	private String numeroPassaporte;
 
-	public void setIdCliente(int idCliente) {
-
+	public Cliente(int idCliente, String nome, String rg, String cpf, String numeroPassaporte) {
+		this.idCliente = idCliente;
+		this.nome = nome;
+		this.rg = rg;
+		this.cpf = cpf;
+		this.numeroPassaporte = numeroPassaporte;
 	}
 
 	public int getIdCliente() {
-		return 0;
+		return idCliente;
 	}
 
-	public void setNome(String nome) {
-
+	public void setIdCliente(int idCliente) {
+		this.idCliente = idCliente;
 	}
 
 	public String getNome() {
-		return null;
+		return nome;
 	}
 
-	public void setRg(String rg) {
-
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public String getRg() {
-		return null;
+		return rg;
 	}
 
-	public void setCpf(String cpf) {
-
+	public void setRg(String rg) {
+		this.rg = rg;
 	}
 
 	public String getCpf() {
-		return null;
+		return cpf;
 	}
 
-	public void setNumeroPassaporte(String numeroPassaporte) {
-
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 
 	public String getNumeroPassaporte() {
-		return null;
+		return numeroPassaporte;
 	}
 
+	public void setNumeroPassaporte(String numeroPassaporte) {
+		this.numeroPassaporte = numeroPassaporte;
+	}
 }
