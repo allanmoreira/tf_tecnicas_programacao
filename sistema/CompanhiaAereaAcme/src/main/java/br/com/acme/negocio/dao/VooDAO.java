@@ -1,7 +1,6 @@
 package br.com.acme.negocio.dao;
 
 import br.com.acme.negocio.modelo.Voo;
-
 import java.util.List;
 
 public interface VooDAO {

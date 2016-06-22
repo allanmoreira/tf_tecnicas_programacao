@@ -3,9 +3,12 @@ package br.com.acme.negocio.modelo;
 public class Assento {
 
 	private int idAssento;
-	private Aeronave aeronave;
+
 	private char tipo;
+
 	private boolean reservado;
+
+	private Aeronave aeronave;
 
 	public void setIdAssento(int idAssento) {
 
@@ -13,14 +16,6 @@ public class Assento {
 
 	public int getIdAssento() {
 		return 0;
-	}
-
-	public void setAeronave(Aeronave aeronave) {
-
-	}
-
-	public Aeronave getAeronave() {
-		return null;
 	}
 
 	public void setTipo(char tipo) {

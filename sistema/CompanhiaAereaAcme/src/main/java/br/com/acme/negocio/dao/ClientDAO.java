@@ -1,7 +1,6 @@
 package br.com.acme.negocio.dao;
 
 import br.com.acme.negocio.modelo.Cliente;
-
 import java.util.List;
 
 public interface ClientDAO {

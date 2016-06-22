@@ -1,6 +1,7 @@
 package br.com.acme.negocio.modelo;
 
 import java.util.Date;
+import br.com.acme.negocio.regras.RegraPromocao;
 
 public class Promocao {
 
@@ -11,6 +12,8 @@ public class Promocao {
 	private String tipo;
 
 	private Date dataValidade;
+
+	private RegraPromocao regraPromocao;
 
 	public void setIdPromocao(int idPromocao) {
 

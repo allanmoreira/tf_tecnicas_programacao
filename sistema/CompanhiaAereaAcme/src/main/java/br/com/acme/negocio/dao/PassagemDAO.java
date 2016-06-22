@@ -1,10 +1,9 @@
 package br.com.acme.negocio.dao;
 
 import br.com.acme.negocio.modelo.Passagem;
-import br.com.acme.negocio.modelo.Promocao;
-
-import java.math.BigDecimal;
 import java.util.List;
+import br.com.acme.negocio.modelo.Promocao;
+import java.math.BigDecimal;
 
 public interface PassagemDAO {
 

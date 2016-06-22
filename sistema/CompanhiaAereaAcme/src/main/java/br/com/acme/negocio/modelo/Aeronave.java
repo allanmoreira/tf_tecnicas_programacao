@@ -12,7 +12,7 @@ public class Aeronave {
 
 	private int numeroDeAssentos;
 
-	private List<Assento> listaAssentos;
+	private Assento[] assento;
 
 	public void setIdAeronave(String idAeronave) {
 
