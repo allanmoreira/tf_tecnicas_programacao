@@ -1,0 +1,11 @@
+pg_dump --table=aeronaves --data-only --column-inserts trabalho_tp > aeronaves.sql
+pg_dump --table=aeroportos --data-only --column-inserts trabalho_tp > aeroportos.sql
+pg_dump --table=aliancas --data-only --column-inserts trabalho_tp > aliancas.sql
+pg_dump --table=assentos --data-only --column-inserts trabalho_tp > assentos.sql
+pg_dump --table=chegadas --data-only --column-inserts trabalho_tp > chegadas.sql
+pg_dump --table=clientes --data-only --column-inserts trabalho_tp > clientes.sql
+pg_dump --table=linhas_aereas --data-only --column-inserts trabalho_tp > linhas_aereas.sql
+pg_dump --table=partidas --data-only --column-inserts trabalho_tp > partidas.sql
+pg_dump --table=passagens --data-only --column-inserts trabalho_tp > passagens.sql
+pg_dump --table=promocoes --data-only --column-inserts trabalho_tp > promocoes.sql
+pg_dump --table=voos --data-only --column-inserts trabalho_tp > voos.sql
