@@ -1,0 +1,24 @@
+pg_dump --table=aeronaves --data-only --column-inserts trabalho_tp > aeronaves.sql
+pg_dump --table=aeroportos --data-only --column-inserts trabalho_tp > aeroportos.sql
+pg_dump --table=aliancas --data-only --column-inserts trabalho_tp > aliancas.sql
+pg_dump --table=assentos --data-only --column-inserts trabalho_tp > assentos.sql
+pg_dump --table=chegadas --data-only --column-inserts trabalho_tp > chegadas.sql
+pg_dump --table=clientes --data-only --column-inserts trabalho_tp > clientes.sql
+pg_dump --table=linhas_aereas --data-only --column-inserts trabalho_tp > linhas_aereas.sql
+pg_dump --table=partidas --data-only --column-inserts trabalho_tp > partidas.sql
+pg_dump --table=passagens --data-only --column-inserts trabalho_tp > passagens.sql
+pg_dump --table=promocoes --data-only --column-inserts trabalho_tp > promocoes.sql
+pg_dump --table=voos --data-only --column-inserts trabalho_tp > voos.sql
+
+
+pg_dump trabalho_tp -t aeronaves --schema-only > create_table_aeronaves.sql
+pg_dump trabalho_tp -t aeroportos --schema-only > create_table_aeroportos.sql
+pg_dump trabalho_tp -t aliancas --schema-only > create_table_aliancas.sql
+pg_dump trabalho_tp -t assentos --schema-only > create_table_assentos.sql
+pg_dump trabalho_tp -t chegadas --schema-only > create_table_chegadas.sql
+pg_dump trabalho_tp -t clientes --schema-only > create_table_clientes.sql
+pg_dump trabalho_tp -t linhas_aereas --schema-only > create_table_linhas_aereas.sql
+pg_dump trabalho_tp -t partidas --schema-only > create_table_partidas.sql
+pg_dump trabalho_tp -t passagens --schema-only > create_table_passagens.sql
+pg_dump trabalho_tp -t promocoes --schema-only > create_table_promocoes.sql
+pg_dump trabalho_tp -t voos --schema-only > create_table_voos.sql

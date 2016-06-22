@@ -1,0 +1,1290 @@
+{
+ "741": {
+  "modelo": "747-100",
+  "fabricante": "Boeing"
+ },
+ "D6F": {
+  "modelo": "DC-6A/B/C Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "74U": {
+  "modelo": "747-300 Freighter",
+  "fabricante": "Boeing"
+ },
+ "74Y": {
+  "modelo": "747-400 Freighter",
+  "fabricante": "Boeing"
+ },
+ "74C": {
+  "modelo": "747-200 Combi",
+  "fabricante": "Boeing"
+ },
+ "DHP": {
+  "modelo": "DHC-2 Beaver",
+  "fabricante": "De Havilland Canada"
+ },
+ "L10": {
+  "modelo": "L-1011 Tristar",
+  "fabricante": "Lockheed"
+ },
+ "M81": {
+  "modelo": "Douglas MD-81",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "CN2": {
+  "modelo": "twin piston engines",
+  "fabricante": "Cessna light aircraft"
+ },
+ "A40": {
+  "modelo": "An-140",
+  "fabricante": "Antonov"
+ },
+ "A26": {
+  "modelo": "An-26",
+  "fabricante": "Antonov"
+ },
+ "GRG": {
+  "modelo": "G-21 Goose",
+  "fabricante": "Grumman"
+ },
+ "LMO": {
+  "modelo": "Limousine",
+  "fabricante": "Non Aircraft"
+ },
+ "722": {
+  "modelo": "727-200",
+  "fabricante": "Boeing"
+ },
+ "ER3": {
+  "modelo": "ERJ-135 Regional Jet",
+  "fabricante": "Embraer"
+ },
+ "D1F": {
+  "modelo": "Douglas DC-10 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "M1F": {
+  "modelo": "Douglas MD-11 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "A30": {
+  "modelo": "An-30",
+  "fabricante": "Antonov"
+ },
+ "318": {
+  "modelo": "A318",
+  "fabricante": "Airbus Industrie"
+ },
+ "A81": {
+  "modelo": "An-148-100",
+  "fabricante": "Antonov"
+ },
+ "76F": {
+  "modelo": "767 Freighter",
+  "fabricante": "Boeing"
+ },
+ "D9C": {
+  "modelo": "Douglas DC-9-30 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "VCV": {
+  "modelo": "Viscount",
+  "fabricante": "Vickers"
+ },
+ "L4T": {
+  "modelo": "410 Turbolet",
+  "fabricante": "Let"
+ },
+ "707": {
+  "modelo": "707/720",
+  "fabricante": "Boeing"
+ },
+ "788": {
+  "modelo": "787-8",
+  "fabricante": "Boeing"
+ },
+ "D8X": {
+  "modelo": "Douglas DC-8-61/62/63 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "73H": {
+  "modelo": "737-800 With Winglets",
+  "fabricante": "Boeing"
+ },
+ "142": {
+  "modelo": "BAe 146-200",
+  "fabricante": "British Aerospace"
+ },
+ "D92": {
+  "modelo": "Douglas DC-9-20",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "77L": {
+  "modelo": "777-200LR",
+  "fabricante": "Boeing"
+ },
+ "AB4": {
+  "modelo": "A300B2/B4/C4",
+  "fabricante": "Airbus Industrie"
+ },
+ "SU1": {
+  "modelo": "Superjet",
+  "fabricante": "Sukhoi"
+ },
+ "342": {
+  "modelo": "A340-200",
+  "fabricante": "Airbus Industrie"
+ },
+ "74E": {
+  "modelo": "747-400 Combi",
+  "fabricante": "Boeing"
+ },
+ "TRN": {
+  "modelo": "",
+  "fabricante": "Non Aircraft - Train"
+ },
+ "73F": {
+  "modelo": "737 Freighter",
+  "fabricante": "Boeing"
+ },
+ "IL9": {
+  "modelo": "IL-96",
+  "fabricante": "Ilyushin"
+ },
+ "320": {
+  "modelo": "A320",
+  "fabricante": "Airbus Industrie"
+ },
+ "AN4": {
+  "modelo": "An-24",
+  "fabricante": "Antonov"
+ },
+ "PAG": {
+  "modelo": "",
+  "fabricante": "Piper Light Aircraft"
+ },
+ "AT5": {
+  "modelo": "ATR 42-500",
+  "fabricante": "Aerospatiale/Alenia"
+ },
+ "767": {
+  "modelo": "767",
+  "fabricante": "Boeing"
+ },
+ "ND2": {
+  "modelo": "262",
+  "fabricante": "Aerospatiale/Nord"
+ },
+ "72M": {
+  "modelo": "727 Combi",
+  "fabricante": "Boeing"
+ },
+ "SH3": {
+  "modelo": "SD-330",
+  "fabricante": "Shorts"
+ },
+ "YN2": {
+  "modelo": "Y-12/Xian Y-12",
+  "fabricante": "Yunshuji"
+ },
+ "NDC": {
+  "modelo": "Corvette",
+  "fabricante": "Aerospatiale SN601"
+ },
+ "CR9": {
+  "modelo": "Jet 900",
+  "fabricante": "Cessna light aircraft"
+ },
+ "D8Y": {
+  "modelo": "Douglas DC-8-71/72/73 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "CNC": {
+  "modelo": "single turboprop engine",
+  "fabricante": "Cessna light aircraft"
+ },
+ "333": {
+  "modelo": "A330-300",
+  "fabricante": "Airbus Industrie"
+ },
+ "ILW": {
+  "modelo": "IL-86",
+  "fabricante": "Ilyushin"
+ },
+ "75M": {
+  "modelo": "757-200 Combi",
+  "fabricante": "Boeing"
+ },
+ "BUS": {
+  "modelo": "Bus",
+  "fabricante": "Non Aircraft"
+ },
+ "DH1": {
+  "modelo": "DHC-8-100 Dash 8/8Q",
+  "fabricante": "De Havilland Canada"
+ },
+ "388": {
+  "modelo": "A380-800",
+  "fabricante": "Airbus Industrie"
+ },
+ "DH2": {
+  "modelo": "DHC-8-200 Dash 8/8Q",
+  "fabricante": "De Havilland Canada"
+ },
+ "CNA": {
+  "modelo": "",
+  "fabricante": "Cessna Light Aircraft"
+ },
+ "73A": {
+  "modelo": "737-200/200C Advanced",
+  "fabricante": "Boeing"
+ },
+ "YK2": {
+  "modelo": "Yak-42",
+  "fabricante": "Yakovlev"
+ },
+ "ACD": {
+  "modelo": "Commander/Turbo/Jetprop",
+  "fabricante": "Twin Aero"
+ },
+ "LOH": {
+  "modelo": "L-100 Hercules",
+  "fabricante": "Lockheed"
+ },
+ "CVF": {
+  "modelo": "580/600/640 Freighter",
+  "fabricante": "Convair"
+ },
+ "F21": {
+  "modelo": "F28 Fellowship 1000",
+  "fabricante": "Fokker"
+ },
+ "B14": {
+  "modelo": "BAC One Eleven 400",
+  "fabricante": "British Aerospace"
+ },
+ "SU9": {
+  "modelo": "Superjet 100",
+  "fabricante": "Sukhoi"
+ },
+ "77W": {
+  "modelo": "777-300ER",
+  "fabricante": "Boeing"
+ },
+ "73S": {
+  "modelo": "737 Advanced",
+  "fabricante": "Boeing"
+ },
+ "CN1": {
+  "modelo": "single piston engine",
+  "fabricante": "Cessna light aircraft"
+ },
+ "F70": {
+  "modelo": "70",
+  "fabricante": "Fokker"
+ },
+ "D3F": {
+  "modelo": "DC-3 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "JST": {
+  "modelo": "Jetstream 31/32/41",
+  "fabricante": "British Aerospace"
+ },
+ "NDE": {
+  "modelo": "Ecureuil AS350/AS355",
+  "fabricante": "Aerospatiale/Eurocopter"
+ },
+ "DC9": {
+  "modelo": "Douglas DC-9",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "141": {
+  "modelo": "BAe 146-100",
+  "fabricante": "British Aerospace"
+ },
+ "72F": {
+  "modelo": "727 Freighter",
+  "fabricante": "Boeing"
+ },
+ "TU5": {
+  "modelo": "Tu-154",
+  "fabricante": "Tupolev"
+ },
+ "733": {
+  "modelo": "737-300",
+  "fabricante": "Boeing"
+ },
+ "73J": {
+  "modelo": "737-900 With Winglets",
+  "fabricante": "Boeing"
+ },
+ "CD2": {
+  "modelo": "N22B/N24A Nomad",
+  "fabricante": "Government Aircraft Factories"
+ },
+ "721": {
+  "modelo": "727-100",
+  "fabricante": "Boeing"
+ },
+ "731": {
+  "modelo": "737-100",
+  "fabricante": "Boeing"
+ },
+ "AR1": {
+  "modelo": "RJ100 Avroliner",
+  "fabricante": "Avro"
+ },
+ "DH7": {
+  "modelo": "DHC-7 Dash 7",
+  "fabricante": "De Havilland Canada"
+ },
+ "M1M": {
+  "modelo": "Douglas MD-11 Combi",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "BNI": {
+  "modelo": "BN-2A/B",
+  "fabricante": "Pilatus Britten-Norman"
+ },
+ "S76": {
+  "modelo": "S-76",
+  "fabricante": "Sikorsky"
+ },
+ "75T": {
+  "modelo": "757-300 With Winglets",
+  "fabricante": "Boeing"
+ },
+ "F22": {
+  "modelo": "F28 Fellowship 2000",
+  "fabricante": "Fokker"
+ },
+ "L11": {
+  "modelo": "L-1011-1/50/100/150/200/250",
+  "fabricante": "Lockheed"
+ },
+ "772": {
+  "modelo": "777-200/200ER",
+  "fabricante": "Boeing"
+ },
+ "763": {
+  "modelo": "767-300",
+  "fabricante": "Boeing"
+ },
+ "I9M": {
+  "modelo": "IL-96M",
+  "fabricante": "Ilyushin"
+ },
+ "31X": {
+  "modelo": "A310-200 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "SF3": {
+  "modelo": "SF-340",
+  "fabricante": "Saab"
+ },
+ "D8M": {
+  "modelo": "Douglas DC-8 Combi",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "DH4": {
+  "modelo": "DHC-8-400 Dash 8/8Q",
+  "fabricante": "De Havilland Canada"
+ },
+ "D9F": {
+  "modelo": "Douglas DC-9-40 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "BE1": {
+  "modelo": "Beech 1900",
+  "fabricante": "Beechcraft"
+ },
+ "72C": {
+  "modelo": "727-200 Combi",
+  "fabricante": "Boeing"
+ },
+ "JU5": {
+  "modelo": "Ju52",
+  "fabricante": "Junkers"
+ },
+ "SWM": {
+  "modelo": "Metro/Merlin",
+  "fabricante": "Fokker"
+ },
+ "764": {
+  "modelo": "767-400",
+  "fabricante": "Boeing"
+ },
+ "ATR": {
+  "modelo": "ATR",
+  "fabricante": "Aerospatiale/Alenia"
+ },
+ "AN6": {
+  "modelo": "An-26/30/32",
+  "fabricante": "Antonov"
+ },
+ "340": {
+  "modelo": "A340",
+  "fabricante": "Airbus Industrie"
+ },
+ "MA6": {
+  "modelo": "MA6",
+  "fabricante": "Xian"
+ },
+ "73Q": {
+  "modelo": "737-400 Mixed Config",
+  "fabricante": "Boeing"
+ },
+ "72Y": {
+  "modelo": "727-200 Freighter",
+  "fabricante": "Boeing"
+ },
+ "773": {
+  "modelo": "777-300",
+  "fabricante": "Boeing"
+ },
+ "B13": {
+  "modelo": "BAC One Eleven 300",
+  "fabricante": "British Aerospace"
+ },
+ "319": {
+  "modelo": "A319",
+  "fabricante": "Airbus Industrie"
+ },
+ "E95": {
+  "modelo": "ERJ-195",
+  "fabricante": "Embraer"
+ },
+ "AN7": {
+  "modelo": "An-72/74",
+  "fabricante": "Antonov"
+ },
+ "787": {
+  "modelo": "787",
+  "fabricante": "Boeing"
+ },
+ "D94": {
+  "modelo": "Douglas DC-9-40",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "CR2": {
+  "modelo": "Jet 200",
+  "fabricante": "Cessna light aircraft"
+ },
+ "CS5": {
+  "modelo": "CN-235",
+  "fabricante": "CASA/IPTN"
+ },
+ "M88": {
+  "modelo": "Douglas MD-88",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "T20": {
+  "modelo": "Tu-204/214",
+  "fabricante": "Tupolev"
+ },
+ "AR7": {
+  "modelo": "RJ70 Avroliner",
+  "fabricante": "Avro"
+ },
+ "AX8": {
+  "modelo": "RJX85",
+  "fabricante": "Avro"
+ },
+ "EM2": {
+  "modelo": "EMB-120 Brasilia",
+  "fabricante": "Embraer"
+ },
+ "AX1": {
+  "modelo": "RJX100",
+  "fabricante": "Avro"
+ },
+ "I93": {
+  "modelo": "IL-96-300",
+  "fabricante": "Ilyushin"
+ },
+ "74H": {
+  "modelo": "747-8 Intercontinental",
+  "fabricante": "Boeing"
+ },
+ "321": {
+  "modelo": "A321",
+  "fabricante": "Airbus Industrie"
+ },
+ "ER4": {
+  "modelo": "ERJ-145 Regional Jet",
+  "fabricante": "Embraer"
+ },
+ "73C": {
+  "modelo": "737-300",
+  "fabricante": "Boeing"
+ },
+ "346": {
+  "modelo": "A340-600",
+  "fabricante": "Airbus Industrie"
+ },
+ "732": {
+  "modelo": "737-200",
+  "fabricante": "Boeing"
+ },
+ "M80": {
+  "modelo": "Douglas MD-80",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "76W": {
+  "modelo": "767 Winglets",
+  "fabricante": "Boeing"
+ },
+ "L1F": {
+  "modelo": "L-1011 Tristar Freighter",
+  "fabricante": "Lockheed"
+ },
+ "BE2": {
+  "modelo": "twin piston",
+  "fabricante": "Beechcraft"
+ },
+ "S20": {
+  "modelo": "2000",
+  "fabricante": "Saab"
+ },
+ "742": {
+  "modelo": "747-200",
+  "fabricante": "Boeing"
+ },
+ "75F": {
+  "modelo": "757-200 Freighter",
+  "fabricante": "Boeing"
+ },
+ "72B": {
+  "modelo": "727-100 Combi",
+  "fabricante": "Boeing"
+ },
+ "B11": {
+  "modelo": "BAC One Eleven",
+  "fabricante": "British Aerospace"
+ },
+ "74D": {
+  "modelo": "747-300 Combi (including -200SUD)",
+  "fabricante": "Boeing"
+ },
+ "I14": {
+  "modelo": "IL-114",
+  "fabricante": "Ilyushin"
+ },
+ "BH2": {
+  "modelo": "429",
+  "fabricante": "Bell Helicopters"
+ },
+ "MIH": {
+  "modelo": "",
+  "fabricante": "Mil"
+ },
+ "70M": {
+  "modelo": "707-300 Combi",
+  "fabricante": "Boeing"
+ },
+ "72A": {
+  "modelo": "727-200 Advanced",
+  "fabricante": "Boeing"
+ },
+ "DHC": {
+  "modelo": "DHC-4 Caribou",
+  "fabricante": "De Havilland Canada"
+ },
+ "D10": {
+  "modelo": "Douglas DC-10",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "313": {
+  "modelo": "A310-300",
+  "fabricante": "Airbus Industrie"
+ },
+ "312": {
+  "modelo": "A310-200",
+  "fabricante": "Airbus Industrie"
+ },
+ "D1C": {
+  "modelo": "Douglas DC-10-30/40",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "BES": {
+  "modelo": "Beech 1900C",
+  "fabricante": "Beechcraft"
+ },
+ "736": {
+  "modelo": "737-600",
+  "fabricante": "Boeing"
+ },
+ "GRM": {
+  "modelo": "G-73 Turbo Mallard",
+  "fabricante": "Grumman"
+ },
+ "73X": {
+  "modelo": "737-200 Freighter",
+  "fabricante": "Boeing"
+ },
+ "73N": {
+  "modelo": "737-300 Mixed Config",
+  "fabricante": "Boeing"
+ },
+ "A32": {
+  "modelo": "An-32",
+  "fabricante": "Antonov"
+ },
+ "D28": {
+  "modelo": "Do-228",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "PA2": {
+  "modelo": "twin piston engines",
+  "fabricante": "Piper light aircraft"
+ },
+ "BEC": {
+  "modelo": "Light Aircraft",
+  "fabricante": "Beechcraft"
+ },
+ "D8F": {
+  "modelo": "Douglas DC-8 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "777": {
+  "modelo": "777",
+  "fabricante": "Boeing"
+ },
+ "CCJ": {
+  "modelo": "Challenger",
+  "fabricante": "Canadair"
+ },
+ "74X": {
+  "modelo": "747-200 Freighter",
+  "fabricante": "Boeing"
+ },
+ "757": {
+  "modelo": "757",
+  "fabricante": "Boeing"
+ },
+ "EM9": {
+  "modelo": "E190",
+  "fabricante": "Embraer"
+ },
+ "WWP": {
+  "modelo": "1124 Westwind",
+  "fabricante": "Israel Aircraft Industries"
+ },
+ "70F": {
+  "modelo": "707-300 Freighter",
+  "fabricante": "Boeing"
+ },
+ "A28": {
+  "modelo": "An-28",
+  "fabricante": "Antonov"
+ },
+ "M87": {
+  "modelo": "Douglas MD-87",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "ERJ": {
+  "modelo": "ERJ-135/140/145 Regional Jet",
+  "fabricante": "Embraer"
+ },
+ "AGH": {
+  "modelo": "A109",
+  "fabricante": "Agusta"
+ },
+ "M82": {
+  "modelo": "Douglas MD-82",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "LCH": {
+  "modelo": "Launch/Boat",
+  "fabricante": "Non Aircraft"
+ },
+ "717": {
+  "modelo": "717-200",
+  "fabricante": "Boeing"
+ },
+ "B72": {
+  "modelo": "720B",
+  "fabricante": "Boeing"
+ },
+ "D1X": {
+  "modelo": "Douglas DC-10-10 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "727": {
+  "modelo": "727",
+  "fabricante": "Boeing"
+ },
+ "D1Y": {
+  "modelo": "Douglas DC-10-30/40 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "CVR": {
+  "modelo": "240/440/580",
+  "fabricante": "Convair"
+ },
+ "32A": {
+  "modelo": "A320-200 (Sharklets)",
+  "fabricante": "Airbus Industrie"
+ },
+ "31Y": {
+  "modelo": "A310-300 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "72X": {
+  "modelo": "727-100 Freighter",
+  "fabricante": "Boeing"
+ },
+ "737": {
+  "modelo": "737",
+  "fabricante": "Boeing"
+ },
+ "74L": {
+  "modelo": "747SP",
+  "fabricante": "Boeing"
+ },
+ "ERD": {
+  "modelo": "ERJ-140 Regional Jet",
+  "fabricante": "Embraer"
+ },
+ "D11": {
+  "modelo": "Douglas DC-10-10/15",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "PN6": {
+  "modelo": "P68",
+  "fabricante": "Partenavia"
+ },
+ "DC8": {
+  "modelo": "Douglas DC-8",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "76Y": {
+  "modelo": "767-300 Freighter",
+  "fabricante": "Boeing"
+ },
+ "EMJ": {
+  "modelo": "ERJ-170/190",
+  "fabricante": "Embraer"
+ },
+ "332": {
+  "modelo": "A330-200",
+  "fabricante": "Airbus Industrie"
+ },
+ "EMB": {
+  "modelo": "EMB-110 Bandeirante",
+  "fabricante": "Embraer"
+ },
+ "DC3": {
+  "modelo": "DC-3",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "IL6": {
+  "modelo": "IL-62",
+  "fabricante": "Ilyushin"
+ },
+ "D38": {
+  "modelo": "Do-328",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "73P": {
+  "modelo": "737-400 Freighter",
+  "fabricante": "Boeing"
+ },
+ "310": {
+  "modelo": "A310",
+  "fabricante": "Airbus Industrie"
+ },
+ "CWC": {
+  "modelo": "C-46 Commando",
+  "fabricante": "Curtiss"
+ },
+ "ARX": {
+  "modelo": "RJX",
+  "fabricante": "Avro"
+ },
+ "A58": {
+  "modelo": "An-158",
+  "fabricante": "Antonov"
+ },
+ "DH8": {
+  "modelo": "DHC-8 Dash 8 All S.",
+  "fabricante": "De Havilland Canada"
+ },
+ "CV5": {
+  "modelo": "580",
+  "fabricante": "Convair"
+ },
+ "HEC": {
+  "modelo": "H-250 Courier/H-295/395 Super Courier",
+  "fabricante": "Helio"
+ },
+ "743": {
+  "modelo": "747-300 (including -100SUD and -200SUD)",
+  "fabricante": "Boeing"
+ },
+ "SSC": {
+  "modelo": "Concorde (discontinued)",
+  "fabricante": "Aerospatiale/British Aerospace"
+ },
+ "739": {
+  "modelo": "737-900",
+  "fabricante": "Boeing"
+ },
+ "14F": {
+  "modelo": "BAe 146 Freighter",
+  "fabricante": "British Aerospace"
+ },
+ "14Z": {
+  "modelo": "BAe 146-300QT/QC",
+  "fabricante": "British Aerospace"
+ },
+ "FRJ": {
+  "modelo": "328JET",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "31F": {
+  "modelo": "A310 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "AB6": {
+  "modelo": "A300-600",
+  "fabricante": "Airbus Industrie"
+ },
+ "734": {
+  "modelo": "737-400",
+  "fabricante": "Boeing"
+ },
+ "14Y": {
+  "modelo": "BAe 146-200QT/QC",
+  "fabricante": "British Aerospace"
+ },
+ "D95": {
+  "modelo": "Douglas DC-9-50",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "S61": {
+  "modelo": "S-61",
+  "fabricante": "Sikorsky"
+ },
+ "ABY": {
+  "modelo": "A300-600 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "345": {
+  "modelo": "A340-500",
+  "fabricante": "Airbus Industrie"
+ },
+ "M11": {
+  "modelo": "Douglas MD-11",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "SH6": {
+  "modelo": "SD-360",
+  "fabricante": "Shorts"
+ },
+ "F28": {
+  "modelo": "F28 Fellowship",
+  "fabricante": "Fokker"
+ },
+ "D8T": {
+  "modelo": "Douglas DC-8-50 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "330": {
+  "modelo": "A330",
+  "fabricante": "Airbus Industrie"
+ },
+ "143": {
+  "modelo": "BAe 146-300",
+  "fabricante": "British Aerospace"
+ },
+ "DH3": {
+  "modelo": "DHC-8-300 Dash 8/8Q",
+  "fabricante": "De Havilland Canada"
+ },
+ "I9Y": {
+  "modelo": "IL-96T",
+  "fabricante": "Ilyushin"
+ },
+ "E75": {
+  "modelo": "ERJ-175",
+  "fabricante": "Embraer"
+ },
+ "J41": {
+  "modelo": "Jetstream 41",
+  "fabricante": "British Aerospace"
+ },
+ "CRV": {
+  "modelo": "SE210 Caravelle",
+  "fabricante": "Aerospatiale/SUD"
+ },
+ "SFB": {
+  "modelo": "SF-340B",
+  "fabricante": "Saab"
+ },
+ "753": {
+  "modelo": "757-300",
+  "fabricante": "Boeing"
+ },
+ "752": {
+  "modelo": "757-200",
+  "fabricante": "Boeing"
+ },
+ "D8L": {
+  "modelo": "Douglas DC-8-62",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "73Y": {
+  "modelo": "737-300 Freighter",
+  "fabricante": "Boeing"
+ },
+ "DC6": {
+  "modelo": "DC-6",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "ABB": {
+  "modelo": "A300-600ST Beluga",
+  "fabricante": "Airbus Industrie"
+ },
+ "DHS": {
+  "modelo": "DHC-3 Otter",
+  "fabricante": "De Havilland Canada"
+ },
+ "F50": {
+  "modelo": "50",
+  "fabricante": "Fokker"
+ },
+ "TU3": {
+  "modelo": "Tu-134",
+  "fabricante": "Tupolev"
+ },
+ "AT7": {
+  "modelo": "ATR 72",
+  "fabricante": "Aerospatiale/Alenia"
+ },
+ "ABF": {
+  "modelo": "A300 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "14X": {
+  "modelo": "BAe 146-100QT/QC",
+  "fabricante": "British Aerospace"
+ },
+ "BET": {
+  "modelo": "Light Aircraft Twin Prop",
+  "fabricante": "Beechcraft"
+ },
+ "703": {
+  "modelo": "707-300",
+  "fabricante": "Boeing"
+ },
+ "CR1": {
+  "modelo": "Jet 100",
+  "fabricante": "Cessna light aircraft"
+ },
+ "74M": {
+  "modelo": "747 Combi",
+  "fabricante": "Boeing"
+ },
+ "L15": {
+  "modelo": "L-1011-500 Tristar",
+  "fabricante": "Lockheed"
+ },
+ "D8Q": {
+  "modelo": "Douglas DC-8-72",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "ATP": {
+  "modelo": "ATP",
+  "fabricante": "British Aerospace"
+ },
+ "YN7": {
+  "modelo": "Y-7/Harbin Y-7",
+  "fabricante": "Yunshuji"
+ },
+ "M83": {
+  "modelo": "Douglas MD-83",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "73G": {
+  "modelo": "737-700",
+  "fabricante": "Boeing"
+ },
+ "747": {
+  "modelo": "747",
+  "fabricante": "Boeing"
+ },
+ "AB3": {
+  "modelo": "A300",
+  "fabricante": "Airbus Industrie"
+ },
+ "AT4": {
+  "modelo": "ATR 42-300/320",
+  "fabricante": "Aerospatiale/Alenia"
+ },
+ "MU2": {
+  "modelo": "MU-2",
+  "fabricante": "Mitsubishi"
+ },
+ "343": {
+  "modelo": "A340-300",
+  "fabricante": "Airbus Industrie"
+ },
+ "DCF": {
+  "modelo": "Douglas DC-9 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "CRK": {
+  "modelo": "Jet 1000",
+  "fabricante": "Cessna light aircraft"
+ },
+ "DHT": {
+  "modelo": "DHC-6 Twin Otter",
+  "fabricante": "De Havilland Canada"
+ },
+ "A4F": {
+  "modelo": "An-124 Ruslan",
+  "fabricante": "Antonov"
+ },
+ "E70": {
+  "modelo": "ERJ-170",
+  "fabricante": "Embraer"
+ },
+ "F24": {
+  "modelo": "F28 Fellowship 4000",
+  "fabricante": "Fokker"
+ },
+ "74J": {
+  "modelo": "747-400 Domestic",
+  "fabricante": "Boeing"
+ },
+ "AR8": {
+  "modelo": "RJ85 Avroliner",
+  "fabricante": "Avro"
+ },
+ "74V": {
+  "modelo": "747SR Freighter",
+  "fabricante": "Boeing"
+ },
+ "DHL": {
+  "modelo": "DHC-3 Turbo Otter",
+  "fabricante": "De Havilland Canada"
+ },
+ "PA1": {
+  "modelo": "single piston engine",
+  "fabricante": "Piper light aircraft"
+ },
+ "HS7": {
+  "modelo": "Siddeley HS748",
+  "fabricante": "British Aerospace/Hawker"
+ },
+ "735": {
+  "modelo": "737-500",
+  "fabricante": "Boeing"
+ },
+ "F23": {
+  "modelo": "F28 Fellowship 3000",
+  "fabricante": "Fokker"
+ },
+ "ARJ": {
+  "modelo": "RJ Avroliner",
+  "fabricante": "Avro"
+ },
+ "FK7": {
+  "modelo": "FH227",
+  "fabricante": "Fokker"
+ },
+ "IL7": {
+  "modelo": "IL-76",
+  "fabricante": "Ilyushin"
+ },
+ "CR7": {
+  "modelo": "Jet 700",
+  "fabricante": "Cessna light aircraft"
+ },
+ "PL2": {
+  "modelo": "PC-12",
+  "fabricante": "Pilatus"
+ },
+ "380": {
+  "modelo": "A380",
+  "fabricante": "Airbus Industrie"
+ },
+ "LOE": {
+  "modelo": "L-188 Electra",
+  "fabricante": "Lockheed"
+ },
+ "B12": {
+  "modelo": "BAC One Eleven 200",
+  "fabricante": "British Aerospace"
+ },
+ "38F": {
+  "modelo": "A380 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "73W": {
+  "modelo": "737-700 With Winglets",
+  "fabricante": "Boeing"
+ },
+ "73M": {
+  "modelo": "737-200 Combi",
+  "fabricante": "Boeing"
+ },
+ "CNJ": {
+  "modelo": "",
+  "fabricante": "Cessna Citation"
+ },
+ "I9F": {
+  "modelo": "IL-96 Freighter",
+  "fabricante": "Ilyushin"
+ },
+ "738": {
+  "modelo": "737-800",
+  "fabricante": "Boeing"
+ },
+ "CRJ": {
+  "modelo": "Jet",
+  "fabricante": "Cessna light aircraft"
+ },
+ "BE9": {
+  "modelo": "Airliner 99",
+  "fabricante": "Beechcraft"
+ },
+ "32B": {
+  "modelo": "A321-200 (Sharklets)",
+  "fabricante": "Airbus Industrie"
+ },
+ "FA7": {
+  "modelo": "728JET",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "744": {
+  "modelo": "747-400",
+  "fabricante": "Boeing"
+ },
+ "D93": {
+  "modelo": "Douglas DC-9-30",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "76X": {
+  "modelo": "767-200 Freighter",
+  "fabricante": "Boeing"
+ },
+ "J31": {
+  "modelo": "Jetstream 31",
+  "fabricante": "British Aerospace"
+ },
+ "762": {
+  "modelo": "767-200",
+  "fabricante": "Boeing"
+ },
+ "73R": {
+  "modelo": "737-700 Combi",
+  "fabricante": "Boeing"
+ },
+ "75W": {
+  "modelo": "757-200 With Winglets",
+  "fabricante": "Boeing"
+ },
+ "ANF": {
+  "modelo": "An-12",
+  "fabricante": "Antonov"
+ },
+ "ABX": {
+  "modelo": "A300B4/C4/F4 Freighter",
+  "fabricante": "Airbus Industrie"
+ },
+ "CRA": {
+  "modelo": "Jet 705",
+  "fabricante": "Cessna light aircraft"
+ },
+ "72S": {
+  "modelo": "727-200",
+  "fabricante": "Boeing"
+ },
+ "32S": {
+  "modelo": "A318/319/320/321",
+  "fabricante": "Airbus Industrie"
+ },
+ "YS1": {
+  "modelo": "YS-11",
+  "fabricante": "NAMC"
+ },
+ "D91": {
+  "modelo": "Douglas DC-9-10",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "J32": {
+  "modelo": "Jetstream 32",
+  "fabricante": "British Aerospace"
+ },
+ "74T": {
+  "modelo": "747-100 Freighter",
+  "fabricante": "Boeing"
+ },
+ "LRJ": {
+  "modelo": "",
+  "fabricante": "Learjet"
+ },
+ "BEH": {
+  "modelo": "Beech 1900D",
+  "fabricante": "Beechcraft"
+ },
+ "YK4": {
+  "modelo": "Yak-40",
+  "fabricante": "Yakovlev"
+ },
+ "BNT": {
+  "modelo": "BN-2A Trislander",
+  "fabricante": "Pilatus Britten-Norman"
+ },
+ "D9X": {
+  "modelo": "Douglas DC-9-10 Freighter",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "146": {
+  "modelo": "BAe 146",
+  "fabricante": "British Aerospace"
+ },
+ "B15": {
+  "modelo": "BAC One Eleven 500",
+  "fabricante": "British Aerospace"
+ },
+ "M90": {
+  "modelo": "Douglas MD-90",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "IL8": {
+  "modelo": "IL-18",
+  "fabricante": "Ilyushin"
+ },
+ "CS2": {
+  "modelo": "CN-212 Aviocar",
+  "fabricante": "CASA/IPTN"
+ },
+ "D9S": {
+  "modelo": "Douglas DC-9-30/40/50",
+  "fabricante": "Boeing/McDonnell"
+ },
+ "E90": {
+  "modelo": "ERJ-190",
+  "fabricante": "Embraer"
+ },
+ "CNT": {
+  "modelo": "twin turboprop engines",
+  "fabricante": "Cessna light aircraft"
+ },
+ "S58": {
+  "modelo": "S-58T",
+  "fabricante": "Sikorsky"
+ },
+ "73E": {
+  "modelo": "737-900ER",
+  "fabricante": "Boeing"
+ },
+ "74F": {
+  "modelo": "747 Freighter",
+  "fabricante": "Boeing"
+ }
+}
