@@ -10,7 +10,7 @@ public interface PassagemDAO {
 
 	public void insert(Passagem passagem) throws PassagemDAOException;
 
-	public void updateAssento(int idPassagem, int idAssento) throws PassagemDAOException;
+	public void updateAssento(Passagem passagem) throws PassagemDAOException;
 
 	public Passagem selectById(int idPassagem) throws PassagemDAOException;
 

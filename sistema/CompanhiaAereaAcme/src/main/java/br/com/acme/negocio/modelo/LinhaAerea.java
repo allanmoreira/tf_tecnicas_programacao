@@ -11,6 +11,12 @@ public class LinhaAerea {
 		this.nome = nome;
 		this.alianca = alianca;
 	}
+        
+        public LinhaAerea(String idLinhaAerea, String nome) {
+		this.idLinhaAerea = idLinhaAerea;
+		this.nome = nome;
+		this.alianca = null;
+	}
 
 	public String getIdLinhaAerea() {
 		return idLinhaAerea;

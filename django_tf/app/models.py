@@ -107,7 +107,7 @@ class Clientes(models.Model):
     id_cliente = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=200)
     rg = models.CharField(max_length=15)
-    cpf = models.CharField(max_length=20)
+    cpf = models.CharField(max_length=20, db_index=True)
     numero_passaporte = models.CharField(max_length=20)
 
     class Meta:

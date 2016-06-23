@@ -28,9 +28,7 @@ public class InicializadorBancoDadosDataSource {
                     .getConnection("jdbc:postgresql://localhost:5432/" + DB_NAME,
                             USER_NAME, PASSWORD);
         } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-            System.exit(0);
+            throw new Exception("Erro ao conectar ao banco de dados");
         }
         return c;
     }
