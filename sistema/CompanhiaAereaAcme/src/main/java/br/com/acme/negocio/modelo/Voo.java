@@ -12,7 +12,6 @@ public class Voo {
 	public Voo(int idVoo, int tempoEstimado, Aeronave aeronave, LinhaAerea linhaAerea, Partida partida, Chegada chegada) {
 		this.idVoo = idVoo;
 		this.tempoEstimado = tempoEstimado;
-		this.aeronave = aeronave;
 		this.linhaAerea = linhaAerea;
 		this.partida = partida;
 		this.chegada = chegada;

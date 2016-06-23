@@ -1,5 +1,6 @@
 package br.com.acme.negocio.dao;
 
+import br.com.acme.exception.PassagemDAOException;
 import br.com.acme.negocio.modelo.Passagem;
 import java.util.List;
 import br.com.acme.negocio.modelo.Promocao;
@@ -7,20 +8,20 @@ import java.math.BigDecimal;
 
 public interface PassagemDAO {
 
-	public void insert(Passagem passagem);
+	public void insert(Passagem passagem) throws PassagemDAOException;
 
-	public void update(Passagem passagem);
+	public void update(Passagem passagem) throws PassagemDAOException;
 
-	public void updatePrecoCompra(BigDecimal precoCompra);
+	public void updatePrecoCompra(BigDecimal precoCompra) throws PassagemDAOException;
 
-	public void updateAssento(int idPassagem, int idAssento);
+	public void updateAssento(int idPassagem, int idAssento) throws PassagemDAOException;
 
-	public Passagem selectById(int idPassagem);
+	public Passagem selectById(int idPassagem) throws PassagemDAOException;
 
-	public List<Passagem> selectAll();
+	public List<Passagem> selectAll() throws PassagemDAOException;
 
-	public List<Passagem> selectAllByCliente(int idCliente);
+	public List<Passagem> selectAllByCliente(int idCliente) throws PassagemDAOException;
 
-	public void adicionarPromocaoAPassagem(Promocao promocao, Passagem passagem);
+	public void adicionarPromocaoAPassagem(Promocao promocao, Passagem passagem) throws PassagemDAOException;
 
 }
