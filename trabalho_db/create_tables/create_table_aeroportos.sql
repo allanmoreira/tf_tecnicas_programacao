@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Aeroportos
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -47,8 +43,4 @@ ALTER TABLE ONLY aeroportos
 
 CREATE INDEX aeroportos_id_aeroporto_e538f367_like ON aeroportos USING btree (id_aeroporto varchar_pattern_ops);
 
-
---
--- PostgreSQL database dump complete
---
 

@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Linhas Aereas
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -61,8 +57,4 @@ CREATE INDEX linhas_aereas_id_linha_aerea_a5f333ae_like ON linhas_aereas USING b
 ALTER TABLE ONLY linhas_aereas
     ADD CONSTRAINT linhas_aereas_id_alianca_id_76c49fe3_fk_aliancas_id_alianca FOREIGN KEY (id_alianca_id) REFERENCES aliancas(id_alianca) DEFERRABLE INITIALLY DEFERRED;
 
-
---
--- PostgreSQL database dump complete
---
 

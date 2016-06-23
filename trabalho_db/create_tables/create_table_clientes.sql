@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Clientes
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -69,8 +65,4 @@ ALTER TABLE ONLY clientes ALTER COLUMN id_cliente SET DEFAULT nextval('clientes_
 ALTER TABLE ONLY clientes
     ADD CONSTRAINT clientes_pkey PRIMARY KEY (id_cliente);
 
-
---
--- PostgreSQL database dump complete
---
 

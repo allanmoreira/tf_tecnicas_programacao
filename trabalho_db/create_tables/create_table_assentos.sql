@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Assentos
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -88,9 +84,4 @@ CREATE INDEX assentos_id_aeronave_id_f05a8875_like ON assentos USING btree (id_a
 
 ALTER TABLE ONLY assentos
     ADD CONSTRAINT assentos_id_aeronave_id_f05a8875_fk_aeronaves_id_aeronave FOREIGN KEY (id_aeronave_id) REFERENCES aeronaves(id_aeronave) DEFERRABLE INITIALLY DEFERRED;
-
-
---
--- PostgreSQL database dump complete
---
 

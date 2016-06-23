@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Promocoes
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -68,8 +64,4 @@ ALTER TABLE ONLY promocoes ALTER COLUMN id_promocao SET DEFAULT nextval('promoco
 ALTER TABLE ONLY promocoes
     ADD CONSTRAINT promocoes_pkey PRIMARY KEY (id_promocao);
 
-
---
--- PostgreSQL database dump complete
---
 

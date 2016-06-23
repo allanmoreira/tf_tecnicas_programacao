@@ -1,5 +1,10 @@
 package br.com.acme.gui;
 
-public class CtrlCompraPassagem {
+import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
 
+public class CtrlCompraPassagem {
+    public static void main(String[] args) throws Exception{
+        InicializadorBancoDadosDataSource i = new InicializadorBancoDadosDataSource();
+        i.conectarBd();
+    }
 }

@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Passagens
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -132,8 +128,4 @@ ALTER TABLE ONLY passagens
 ALTER TABLE ONLY passagens
     ADD CONSTRAINT passagens_promocoes_id_05216594_fk_promocoes_id_promocao FOREIGN KEY (promocoes_id) REFERENCES promocoes(id_promocao) DEFERRABLE INITIALLY DEFERRED;
 
-
---
--- PostgreSQL database dump complete
---
 

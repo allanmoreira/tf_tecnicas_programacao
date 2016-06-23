@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Aliancas
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -65,9 +61,4 @@ ALTER TABLE ONLY aliancas ALTER COLUMN id_alianca SET DEFAULT nextval('aliancas_
 
 ALTER TABLE ONLY aliancas
     ADD CONSTRAINT aliancas_pkey PRIMARY KEY (id_alianca);
-
-
---
--- PostgreSQL database dump complete
---
 

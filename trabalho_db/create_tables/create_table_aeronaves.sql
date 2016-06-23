@@ -1,9 +1,6 @@
 --
--- PostgreSQL database dump
+-- PostgreSQL Aeronaves
 --
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -46,9 +43,4 @@ ALTER TABLE ONLY aeronaves
 --
 
 CREATE INDEX aeronaves_id_aeronave_6a942ed2_like ON aeronaves USING btree (id_aeronave varchar_pattern_ops);
-
-
---
--- PostgreSQL database dump complete
---
 

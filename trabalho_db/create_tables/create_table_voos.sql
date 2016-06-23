@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Voos
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -144,8 +140,4 @@ ALTER TABLE ONLY voos
 ALTER TABLE ONLY voos
     ADD CONSTRAINT voos_id_partida_id_fb236736_fk_partidas_id_partida FOREIGN KEY (id_partida_id) REFERENCES partidas(id_partida) DEFERRABLE INITIALLY DEFERRED;
 
-
---
--- PostgreSQL database dump complete
---
 

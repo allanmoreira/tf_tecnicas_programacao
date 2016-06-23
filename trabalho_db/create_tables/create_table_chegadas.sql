@@ -1,9 +1,5 @@
 --
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.5.3
--- Dumped by pg_dump version 9.5.3
+-- PostgreSQL Chegadas
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -89,9 +85,4 @@ CREATE INDEX chegadas_id_aeroporto_id_f0e02d72_like ON chegadas USING btree (id_
 
 ALTER TABLE ONLY chegadas
     ADD CONSTRAINT chegadas_id_aeroporto_id_f0e02d72_fk_aeroportos_id_aeroporto FOREIGN KEY (id_aeroporto_id) REFERENCES aeroportos(id_aeroporto) DEFERRABLE INITIALLY DEFERRED;
-
-
---
--- PostgreSQL database dump complete
---
 
