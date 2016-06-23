@@ -4,11 +4,9 @@ import br.com.acme.negocio.modelo.Cliente;
 
 public class IdentificaPassageiroVooNacional implements IdentificaPassageiro {
 
-
-	/**
-	 * @see negocio.regras.IdentificaPassageiro#identificaPassageiro(negocio.modelo.Cliente)
-	 */
-	public boolean identificaPassageiro(Cliente cliente) {
+	public boolean embarqueAutorizado(Cliente cliente) {
+		if(cliente.getCpf() != null || cliente.getRg() != null || cliente.getNumeroPassaporte() != null)
+			return true;
 		return false;
 	}
 

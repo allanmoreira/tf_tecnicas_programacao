@@ -14,6 +14,13 @@ public class VooDAOPostgre implements VooDAO {
         return null;
     }
 
+    /**
+     * Busca os vôos disponíveis para compra de
+     * passagem, ou seja, vôos com partida de hoje em diante.
+     *
+     * @return
+     * @throws VooDAOException
+     */
     @Override
     public List<Voo> selectAll() throws VooDAOException {
         return null;

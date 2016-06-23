@@ -2,21 +2,22 @@ package br.com.acme.negocio.modelo;
 
 import java.sql.Date;
 import br.com.acme.negocio.regras.IdentificaPassageiro;
+import br.com.acme.negocio.regras.StatusPassagem;
+
 import java.math.BigDecimal;
 
 public class Passagem {
 
 	private int idPassagem;
-	private String status;
+	private StatusPassagem status;
 	private Date dataCompra;
 	private BigDecimal precoCompra;
 	private Promocao promocao;
 	private Cliente cliente;
 	private Assento assento;
 	private Voo voo;
-	private IdentificaPassageiro identificaPassageiro;
 
-	public Passagem(int idPassagem, String status, Date dataCompra, BigDecimal precoCompra, Promocao promocao, Cliente cliente, Assento assento, Voo voo, IdentificaPassageiro identificaPassageiro) {
+	public Passagem(int idPassagem, StatusPassagem status, Date dataCompra, BigDecimal precoCompra, Promocao promocao, Cliente cliente, Assento assento, Voo voo) {
 		this.idPassagem = idPassagem;
 		this.status = status;
 		this.dataCompra = dataCompra;
@@ -25,10 +26,9 @@ public class Passagem {
 		this.cliente = cliente;
 		this.assento = assento;
 		this.voo = voo;
-		this.identificaPassageiro = identificaPassageiro;
 	}
 
-	public Passagem(int idPassagem, String status, Date dataCompra, BigDecimal precoCompra, Cliente cliente, Voo voo) {
+	public Passagem(StatusPassagem status, Date dataCompra, BigDecimal precoCompra, Cliente cliente, Voo voo) {
 		this.idPassagem = idPassagem;
 		this.status = status;
 		this.dataCompra = dataCompra;
@@ -45,11 +45,11 @@ public class Passagem {
 		this.idPassagem = idPassagem;
 	}
 
-	public String getStatus() {
+	public StatusPassagem getStatus() {
 		return status;
 	}
 
-	public void setStatus(String status) {
+	public void setStatus(StatusPassagem status) {
 		this.status = status;
 	}
 
@@ -102,11 +102,4 @@ public class Passagem {
 		this.voo = voo;
 	}
 
-	public IdentificaPassageiro getIdentificaPassageiro() {
-		return identificaPassageiro;
-	}
-
-	public void setIdentificaPassageiro(IdentificaPassageiro identificaPassageiro) {
-		this.identificaPassageiro = identificaPassageiro;
-	}
 }

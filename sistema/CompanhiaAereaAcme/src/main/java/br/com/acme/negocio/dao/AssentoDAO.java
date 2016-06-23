@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface AssentoDAO {
 
-	public void selectById(int idAssento) throws AssentoDAOException;
+	public Assento selectById(int idAssento) throws AssentoDAOException;
 
 	public List<Assento> selectAll() throws AssentoDAOException;
 

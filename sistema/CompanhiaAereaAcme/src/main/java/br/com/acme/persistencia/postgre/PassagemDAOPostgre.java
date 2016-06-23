@@ -14,16 +14,13 @@ public class PassagemDAOPostgre implements PassagemDAO {
 
 	}
 
-	@Override
-	public void update(Passagem passagem) throws PassagemDAOException {
-
-	}
-
-	@Override
-	public void updatePrecoCompra(BigDecimal precoCompra) throws PassagemDAOException {
-
-	}
-
+	/**
+	 * Adiciona o assento escolhido à passagem
+	 *
+	 * @param idPassagem
+	 * @param idAssento
+	 * @throws PassagemDAOException
+     */
 	@Override
 	public void updateAssento(int idPassagem, int idAssento) throws PassagemDAOException {
 
@@ -39,11 +36,25 @@ public class PassagemDAOPostgre implements PassagemDAO {
 		return null;
 	}
 
+	/**
+	 * Cumpre pedido do enunciado, que pede a tela de consulta das passagens.
+	 *
+	 * @param idCliente
+	 * @return
+	 * @throws PassagemDAOException
+     */
 	@Override
 	public List<Passagem> selectAllByCliente(int idCliente) throws PassagemDAOException {
 		return null;
 	}
 
+	/**
+	 * Adiciona a chave estrangeira da promoção na passagem e altera o valor da passagem.
+	 *
+	 * @param promocao
+	 * @param passagem
+	 * @throws PassagemDAOException
+     */
 	@Override
 	public void adicionarPromocaoAPassagem(Promocao promocao, Passagem passagem) throws PassagemDAOException {
 

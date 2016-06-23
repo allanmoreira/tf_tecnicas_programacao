@@ -10,10 +10,6 @@ public interface PassagemDAO {
 
 	public void insert(Passagem passagem) throws PassagemDAOException;
 
-	public void update(Passagem passagem) throws PassagemDAOException;
-
-	public void updatePrecoCompra(BigDecimal precoCompra) throws PassagemDAOException;
-
 	public void updateAssento(int idPassagem, int idAssento) throws PassagemDAOException;
 
 	public Passagem selectById(int idPassagem) throws PassagemDAOException;

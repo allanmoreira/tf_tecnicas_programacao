@@ -8,8 +8,8 @@ import java.util.List;
 public class AssentoDAOPostgre implements AssentoDAO {
 
 	@Override
-	public void selectById(int idAssento) throws AssentoDAOException {
-
+	public Assento selectById(int idAssento) throws AssentoDAOException {
+		return null;
 	}
 
 	@Override

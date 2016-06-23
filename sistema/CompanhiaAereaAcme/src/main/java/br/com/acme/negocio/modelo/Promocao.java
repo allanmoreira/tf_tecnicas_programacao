@@ -2,21 +2,20 @@ package br.com.acme.negocio.modelo;
 
 import java.sql.Date;
 import br.com.acme.negocio.regras.RegraPromocao;
+import br.com.acme.negocio.regras.TipoPromocao;
 
 public class Promocao {
 
 	private int idPromocao;
 	private String descricao;
-	private String tipo;
+	private TipoPromocao tipo;
 	private Date dataValidade;
-	private RegraPromocao regraPromocao;
 
-	public Promocao(int idPromocao, String descricao, String tipo, Date dataValidade, RegraPromocao regraPromocao) {
+	public Promocao(int idPromocao, String descricao, TipoPromocao tipo, Date dataValidade) {
 		this.idPromocao = idPromocao;
 		this.descricao = descricao;
 		this.tipo = tipo;
 		this.dataValidade = dataValidade;
-		this.regraPromocao = regraPromocao;
 	}
 
 	public int getIdPromocao() {
@@ -35,11 +34,11 @@ public class Promocao {
 		this.descricao = descricao;
 	}
 
-	public String getTipo() {
+	public TipoPromocao getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(String tipo) {
+	public void setTipo(TipoPromocao tipo) {
 		this.tipo = tipo;
 	}
 
@@ -52,11 +51,4 @@ public class Promocao {
 		this.dataValidade = dataValidade;
 	}
 
-	public RegraPromocao getRegraPromocao() {
-		return regraPromocao;
-	}
-
-	public void setRegraPromocao(RegraPromocao regraPromocao) {
-		this.regraPromocao = regraPromocao;
-	}
 }
