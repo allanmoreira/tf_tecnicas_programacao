@@ -18,7 +18,7 @@ public class AssentoDAOPostgre implements AssentoDAO {
 
     @Override
     public Assento selectById(int idAssento) throws AssentoDAOException {
-        Assento assento = null;
+        /*Assento assento = null;
         String sql = "SELECT \"passagens\".\"id_passagem\", \"passagens\".\"id_cliente_id\", "
                 + "\"passagens\".\"status\", \"passagens\".\"data_compra\", "
                 + "\"passagens\".\"preco_de_compra\", \"passagens\".\"promocoes_id\", "
@@ -49,14 +49,14 @@ public class AssentoDAOPostgre implements AssentoDAO {
 				+ " WHERE \"assentos\".\"id_assento\" = ?";
         try (Connection conexao = InicializadorBancoDadosDataSource.conectarBd()) {
             try (PreparedStatement comando = conexao.prepareStatement(sql)) {
-				comando.setString(1, idAssento);
+				comando.setInt(1, idAssento);
                 try (ResultSet resultado = comando.executeQuery()) {
                     while (resultado.next()) {
 						int id_assento = resultado.getInt(14);
 						String tipo = resultado.getString(15);
 						int aeronave_id = resultado.getInt(16);
 						
-                        assento = new Assento(id_assento,tipo,aeronave_id);                        
+                        assento = new Assento(id_assento, tipo, aeronave_id);                        
                     }
                 }
             }
@@ -66,15 +66,15 @@ public class AssentoDAOPostgre implements AssentoDAO {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return assento;
+        }*/
+        return null;
     }
-    }
+    
 
     @Override
     public List<Assento> selectAll() throws AssentoDAOException {
         List<Assento> todosAssentos = new ArrayList<>();
-        String sql = "SELECT \"passagens\".\"id_passagem\", \"passagens\".\"id_cliente_id\", "
+        /*String sql = "SELECT \"passagens\".\"id_passagem\", \"passagens\".\"id_cliente_id\", "
                 + "\"passagens\".\"status\", \"passagens\".\"data_compra\", "
                 + "\"passagens\".\"preco_de_compra\", \"passagens\".\"promocoes_id\", "
                 + "\"passagens\".\"id_assento_id\", \"passagens\".\"id_voo_id\", "
@@ -119,13 +119,13 @@ public class AssentoDAOPostgre implements AssentoDAO {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        }*/
         return todosAssentos;
     }
 
     @Override
     public List<Assento> selectAll(int idVoo) throws AssentoDAOException {
-        List<Assento> todosAssentos = new ArrayList<>();
+        /*List<Assento> todosAssentos = new ArrayList<>();
         String sql = "SELECT \"passagens\".\"id_passagem\", \"passagens\".\"id_cliente_id\", "
                 + "\"passagens\".\"status\", \"passagens\".\"data_compra\", "
                 + "\"passagens\".\"preco_de_compra\", \"passagens\".\"promocoes_id\", "
@@ -173,7 +173,7 @@ public class AssentoDAOPostgre implements AssentoDAO {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) {
             Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return todosAssentos;
+        }*/
+        return null;
     }
 }
