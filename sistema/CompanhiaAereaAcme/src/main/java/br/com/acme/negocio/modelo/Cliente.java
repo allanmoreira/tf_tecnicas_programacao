@@ -55,4 +55,11 @@ public class Cliente {
 	public void setNumeroPassaporte(String numeroPassaporte) {
 		this.numeroPassaporte = numeroPassaporte;
 	}
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "idCliente=" + idCliente + ", nome=" + nome + ", rg=" + rg + ", cpf=" + cpf + ", numeroPassaporte=" + numeroPassaporte + '}';
+    }
+        
+        
 }

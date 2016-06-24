@@ -29,7 +29,6 @@ public class Passagem {
 	}
 
 	public Passagem(StatusPassagem status, Date dataCompra, BigDecimal precoCompra, Cliente cliente, Voo voo) {
-		this.idPassagem = idPassagem;
 		this.status = status;
 		this.dataCompra = dataCompra;
 		this.precoCompra = precoCompra;
@@ -101,5 +100,10 @@ public class Passagem {
 	public void setVoo(Voo voo) {
 		this.voo = voo;
 	}
+
+    @Override
+    public String toString() {
+        return "Passagem{" + "idPassagem=" + idPassagem + ", status=" + status + ", dataCompra=" + dataCompra + ", precoCompra=" + precoCompra + ", cliente=" + cliente + '}';
+    }
 
 }

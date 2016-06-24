@@ -1,8 +1,7 @@
 package br.com.acme.negocio.modelo;
 
-import java.sql.Date;
-import br.com.acme.negocio.regras.RegraPromocao;
 import br.com.acme.negocio.regras.TipoPromocao;
+import java.sql.Date;
 
 public class Promocao {
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.acme.persistencia.derby;
+package br.com.acme.persistencia.postgre;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -28,9 +28,7 @@ public class InicializadorBancoDadosDataSource {
                     .getConnection("jdbc:postgresql://localhost:5432/" + DB_NAME,
                             USER_NAME, PASSWORD);
         } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-            System.exit(0);
+            throw new Exception("Erro ao conectar ao banco de dados");
         }
         return c;
     }

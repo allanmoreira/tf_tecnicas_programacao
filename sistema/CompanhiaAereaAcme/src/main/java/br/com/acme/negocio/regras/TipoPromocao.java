@@ -2,15 +2,21 @@ package br.com.acme.negocio.regras;
 
 public enum TipoPromocao {
 
-	QTDE_VOOS, DESCONTO_VALOR_PASSAGEM;
+    GRATIS("Passagem Grátis"), DESCONTO_VALOR_PASSAGEM("Desconto de 50% no valor da passagem");
+        
+    public String status;
 
-	@Override
-	public String toString() {
-		switch(this) {
-			case QTDE_VOOS: return "Quantidade de passagens já adquiridas";
-			case DESCONTO_VALOR_PASSAGEM: return "Desconto de 50% no valor da passagem";
-			default: throw new NullPointerException();
-		}
-	}
+    TipoPromocao (String valor) {
+        status = valor;
+    }
+
+    public String getValor() {
+        return status;
+    }
+
+    @Override
+    public String toString() {
+        return status;
+    }
 
 }

@@ -3,11 +3,11 @@ package br.com.acme.negocio.modelo;
 public class Assento {
 
 	private int idAssento;
-	private char tipo;
+	private String tipo;
 	private boolean reservado;
 	private Aeronave aeronave;
 
-	public Assento(int idAssento, char tipo, boolean reservado, Aeronave aeronave) {
+	public Assento(int idAssento, String tipo, boolean reservado, Aeronave aeronave) {
 		this.idAssento = idAssento;
 		this.tipo = tipo;
 		this.reservado = reservado;
@@ -22,11 +22,11 @@ public class Assento {
 		this.idAssento = idAssento;
 	}
 
-	public char getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(char tipo) {
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
 
