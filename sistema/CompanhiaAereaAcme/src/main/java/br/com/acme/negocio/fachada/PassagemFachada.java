@@ -49,8 +49,9 @@ public class PassagemFachada {
 		IdentificaPassageiro identificaPassageiro;
 		cliente = clienteDAO.selectByCpf(cpfCliente);
 		voo = vooDAO.selectById(idVoo);
-
-		if(voo.getPartida().getAeroporto().getNome() == voo.getChegada().getAeroporto().getNome()) {
+                
+                // TODO Criar regra para saber se um vôo é nacional ou internacional. Não há regra atual
+		if(voo.getPartida().getAeroporto().getNome().equals(voo.getChegada().getAeroporto().getNome())) {
 			identificaPassageiro = new IdentificaPassageiroFactory().createInstance(TipoVoo.NACIONAL);
 		}
 		else {
@@ -79,8 +80,8 @@ public class PassagemFachada {
 			throw new AssentoReservadoException("Este assento já foi reservado por outro cliente!");
 		}
 		else {
-			passagem.setAssento(assento);
-			passagemDAO.updateAssento(passagem.getIdPassagem(), assento.getIdAssento());
+                    passagem.setAssento(assento);
+                    passagemDAO.updateAssento(passagem);
 		}
 	}
 }

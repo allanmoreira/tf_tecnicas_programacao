@@ -4,7 +4,7 @@ public class RegraPromocaoFactory {
 
 	public RegraPromocao createInstance(TipoPromocao tipoPromocao) {
 		switch (tipoPromocao) {
-			case QTDE_VOOS:
+			case GRATIS:
 				return new PromocaoQtdeVoos();
 			case DESCONTO_VALOR_PASSAGEM:
 				return new PromocaoDescontoValorPassagem();

@@ -3,7 +3,7 @@ package br.com.acme.persistencia.postgre;
 import br.com.acme.exception.ClienteDAOException;
 import br.com.acme.negocio.dao.ClienteDAO;
 import br.com.acme.negocio.modelo.Cliente;
-import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
+import br.com.acme.persistencia.postgre.InicializadorBancoDadosDataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

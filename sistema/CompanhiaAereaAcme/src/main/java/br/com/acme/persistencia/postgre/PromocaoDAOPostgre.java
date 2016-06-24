@@ -3,7 +3,8 @@ package br.com.acme.persistencia.postgre;
 import br.com.acme.exception.PromocaoDAOException;
 import br.com.acme.negocio.dao.PromocaoDAO;
 import br.com.acme.negocio.modelo.Promocao;
-import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
+import br.com.acme.negocio.regras.TipoPromocao;
+import br.com.acme.persistencia.postgre.InicializadorBancoDadosDataSource;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -25,11 +26,21 @@ public class PromocaoDAOPostgre implements PromocaoDAO {
                 comando.setInt(1, idPromotion);
                 try (ResultSet resultado = comando.executeQuery()) {
                     if (resultado.next()) {
+                        String tipoPromocaoString = resultado.getString("tipo");
+                        TipoPromocao tp = null;
+                        
+                        if(tipoPromocaoString.equals(TipoPromocao.DESCONTO_VALOR_PASSAGEM.toString())){
+                            tp = TipoPromocao.DESCONTO_VALOR_PASSAGEM;
+                        }
+                        else if(tipoPromocaoString.equals(TipoPromocao.GRATIS.toString())){
+                            tp = TipoPromocao.GRATIS;
+                        }
+                        
                         pro = new Promocao(
                                 resultado.getInt("id_promocao"),
                                 resultado.getString("descricao"),
-                                resultado.getString("tipo"),
-                                 Date.valueOf(resultado.getString("data_validade"))
+                                tp,
+                                Date.valueOf(resultado.getString("data_validade"))
                         );
                     }
                 }
@@ -52,10 +63,20 @@ public class PromocaoDAOPostgre implements PromocaoDAO {
             try (PreparedStatement comando = conexao.prepareStatement(sql)) {
                 try (ResultSet resultado = comando.executeQuery()) {
                     if (resultado.next()) {
+                        String tipoPromocaoString = resultado.getString("tipo");
+                        TipoPromocao tp = null;
+                        
+                        if(tipoPromocaoString.equals(TipoPromocao.DESCONTO_VALOR_PASSAGEM.toString())){
+                            tp = TipoPromocao.DESCONTO_VALOR_PASSAGEM;
+                        }
+                        else if(tipoPromocaoString.equals(TipoPromocao.GRATIS.toString())){
+                            tp = TipoPromocao.GRATIS;
+                        }
+                        
                         Promocao pro = new Promocao(
                                 resultado.getInt("id_promocao"),
                                 resultado.getString("descricao"),
-                                resultado.getString("tipo"),
+                                tp,
                                  Date.valueOf(resultado.getString("data_validade"))
                         );
                         promocoes.add(pro);

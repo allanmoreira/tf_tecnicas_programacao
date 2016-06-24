@@ -11,7 +11,7 @@ import br.com.acme.negocio.modelo.Partida;
 import java.util.List;
 
 import br.com.acme.negocio.modelo.Voo;
-import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
+import br.com.acme.persistencia.postgre.InicializadorBancoDadosDataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -173,12 +173,8 @@ public class VooDAOPostgre implements VooDAO {
                     }
                 }
             }
-        } catch (VooDAOException ex) {
-            throw new VooDAOException("Falha na busca. " + ex.getMessage());
-        } catch (SQLException ex) {
-            Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) {
-            Logger.getLogger(AssentoDAOPostgre.class.getName()).log(Level.SEVERE, null, ex);
+            throw new VooDAOException("Falha na busca.");
         }
         return voos;
     }

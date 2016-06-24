@@ -16,7 +16,7 @@ import java.util.List;
 import br.com.acme.negocio.modelo.Promocao;
 import br.com.acme.negocio.modelo.Voo;
 import br.com.acme.negocio.regras.StatusPassagem;
-import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
+import br.com.acme.persistencia.postgre.InicializadorBancoDadosDataSource;
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

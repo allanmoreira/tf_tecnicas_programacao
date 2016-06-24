@@ -14,3 +14,4 @@ hs_err_pid*
 sistema/CompanhiaAcme/.idea/
 sistema/CompanhiaAcme/CompanhiaAereaAcme.iml
 sistema/CompanhiaAcme/CompanhiaAereaAcme/target/
+/sistema/CompanhiaAereaAcme/nbproject/

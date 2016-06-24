@@ -4,7 +4,7 @@ import br.com.acme.exception.AssentoDAOException;
 import br.com.acme.negocio.modelo.Assento;
 import br.com.acme.negocio.dao.AssentoDAO;
 import br.com.acme.negocio.modelo.Aeronave;
-import br.com.acme.persistencia.derby.InicializadorBancoDadosDataSource;
+import br.com.acme.persistencia.postgre.InicializadorBancoDadosDataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

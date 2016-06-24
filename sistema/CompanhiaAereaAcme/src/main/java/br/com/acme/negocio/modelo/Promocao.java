@@ -1,15 +1,16 @@
 package br.com.acme.negocio.modelo;
 
+import br.com.acme.negocio.regras.TipoPromocao;
 import java.sql.Date;
 
 public class Promocao {
 
 	private int idPromocao;
 	private String descricao;
-	private String tipo;
+	private TipoPromocao tipo;
 	private Date dataValidade;
 
-	public Promocao(int idPromocao, String descricao, String tipo, Date dataValidade) {
+	public Promocao(int idPromocao, String descricao, TipoPromocao tipo, Date dataValidade) {
 		this.idPromocao = idPromocao;
 		this.descricao = descricao;
 		this.tipo = tipo;
@@ -32,11 +33,11 @@ public class Promocao {
 		this.descricao = descricao;
 	}
 
-	public String getTipo() {
+	public TipoPromocao getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(String tipo) {
+	public void setTipo(TipoPromocao tipo) {
 		this.tipo = tipo;
 	}
 
