@@ -29,7 +29,12 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         initComponents();
         ctrlVoo = new CtrlVoo();
         ManipulaData manipulaData = new ManipulaData();
-        labelDataSistema.setText(manipulaData.getDataPorExtenso(manipulaData.getDataHoje()));        
+        labelDataSistema.setText(manipulaData.getDataPorExtenso(manipulaData.getDataHoje()));
+        try {
+            dropDownListaVoos = ctrlVoo.listaVoosDisponiveis(dropDownListaVoos);
+        } catch (VooDAOException ex) {
+            JOptionPane.showMessageDialog(null, "Houve uma falha." + ex.getMessage());
+        }
     }
 
     /**

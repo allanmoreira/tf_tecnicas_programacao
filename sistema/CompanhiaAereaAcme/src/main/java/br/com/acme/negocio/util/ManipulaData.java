@@ -10,6 +10,7 @@ import java.util.Locale;
  * Created by allanmoreira on 22/06/16.
  */
 public class ManipulaData {
+    private static SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
 
     public Date getDataHoje(){
         DateTime hoje = new DateTime();
@@ -22,6 +23,11 @@ public class ManipulaData {
         calendar.add(Calendar.DATE, dias);
 
         return new Date(calendar.getTime().getTime());
+    }
+    
+    public static String getDataFormatada(java.sql.Date data){
+        String dataString = formatoData.format(data);
+        return dataString;
     }
     
     public String getDataPorExtenso(java.sql.Date data){

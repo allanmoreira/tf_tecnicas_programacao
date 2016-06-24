@@ -8,6 +8,7 @@ package br.com.acme.gui;
 import br.com.acme.exception.VooDAOException;
 import br.com.acme.negocio.fachada.VooFachada;
 import br.com.acme.negocio.modelo.Voo;
+import br.com.acme.negocio.util.ManipulaData;
 import java.util.List;
 import javax.swing.JComboBox;
 
@@ -16,25 +17,26 @@ import javax.swing.JComboBox;
  * @author allanmoreira
  */
 public class CtrlVoo {
+
     private VooFachada vooFachada;
-    
-    public CtrlVoo () {
+
+    public CtrlVoo() {
         vooFachada = new VooFachada();
     }
-    
-    public JComboBox listaVoosDisponiveis(JComboBox dropDownListaVoos) throws VooDAOException{
+
+    public JComboBox listaVoosDisponiveis(JComboBox dropDownListaVoos) throws VooDAOException {
         dropDownListaVoos.removeAllItems();
         List<Voo> listaVoosDisponiveis = vooFachada.listaVoosDisponiveis();
-        
         for (int i = 0; i < listaVoosDisponiveis.size(); i++) {
-            dropDownListaVoos.addItem(listaVoosDisponiveis.get(i).getPartida().getAeroporto().getNome() + 
-                                     " - " +
-                                     listaVoosDisponiveis.get(i).getChegada().getDataChegada() + " - " +
-                    
-                                     listaVoosDisponiveis.get(i).getChegada().getAeroporto().getNome());    
+            dropDownListaVoos.addItem(
+                    listaVoosDisponiveis.get(i).getPartida().getAeroporto().getNome() + " > "
+                    + listaVoosDisponiveis.get(i).getChegada().getAeroporto().getNome()
+                    + " - "
+                    + ManipulaData.getDataFormatada(listaVoosDisponiveis.get(i).getPartida().getDataPartida()) + ", "
+                    + listaVoosDisponiveis.get(i).getPartida().getHoraPartida());
         }
-        
+
         return dropDownListaVoos;
     }
-    
+
 }
